@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   max-width: 130rem;
-  padding: 0rem 4rem;
+  padding: 0rem 2rem;
   display: flex;
   gap: 2rem;
 }
@@ -31,9 +31,9 @@
 .durationButton > select {
   border: none;
   background: var(--orange-gradient);
-  padding: 10px;
+  padding: 8px;
   font-weight: 500;
-  border-radius: 10px;
+  border-radius: 6px;
   font-size: 0.8rem;
 }
 

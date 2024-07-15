@@ -27,20 +27,20 @@ const Layout = () => {
 
         <div className={css.header}>
 
-          <span>{moment().format("dddd, Do MMM YYYY")}</span>
+          <div className={css.profile}>
+            <img src="./profile.png" alt="user image" />
+            <div className={css.details}>
+              <span>Peter Parker</span>
+              <span>peterparker@yahoo.com</span>
+            </div>
+          </div>
 
           <div className={css.searchBar}>
             <BiSearch size={20} />
             <input type="text" placeholder="Search" />
           </div>
 
-          <div className={css.profile}>
-            <img src="./profile.png" alt="person image" />
-            <div className={css.details}>
-              <span>Denis Steven</span>
-              <span>devissteven@gmail.com</span>
-            </div>
-          </div>
+          <span>{moment().format("dddd, Do MMM YYYY")}</span>
 
 
         </div>

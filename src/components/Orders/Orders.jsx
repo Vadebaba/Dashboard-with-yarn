@@ -7,8 +7,8 @@ const Orders = () => {
     return (
         <div className={`${css.container} theme-container`}>
             <div className={css.head}>
-                <img src="./logo.png" alt="logo" />
-                <span>Orders today</span>
+            <img src="./logo.png" alt="logo" />
+                <span>Today's Orders List</span>
             </div>
 
             <div className={`grey-container ${css.stat}`}>

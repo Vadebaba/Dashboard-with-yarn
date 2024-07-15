@@ -13,7 +13,7 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 20rem;
+  height: 30rem;
   overflow: hidden;
   z-index: -1;
 }
@@ -28,7 +28,7 @@
 }
 .header{
     display: flex;
-    padding: 2rem 4rem;
+    padding: 1rem 2.5rem;
     align-items: center;
     justify-content: space-between;
 }
@@ -67,7 +67,9 @@
 .profile>img{
     height: 50px;
     width: 50px;
+    border-radius: 25px;
 }
+
 .details{
     display: flex;
     flex-direction: column;
@@ -82,10 +84,10 @@
 .content{
     margin: auto;
     display: flex;
-    height: 100%;
-    /* align-items: center; */
+   /* height: 100%;
+     align-items: center; */
     /* uncomment the aic, and make mt -4rem */
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 .content>div{
     width: 100%;

@@ -6,7 +6,6 @@ import { NavLink } from 'react-router-dom';
 const Sidebar = () => {
     return (
         <div className={css.container}>
-
             <img src="./logo.png" alt="logo" className={css.logo} />
 
 
@@ -14,7 +13,7 @@ const Sidebar = () => {
                 <NavLink to="dashboard" className={css.item} title={"Dashboard"}>
                     <MdSpaceDashboard size={30} />
                 </NavLink>
-                
+
                 <NavLink
                     to="calendar"
                     className={css.item}

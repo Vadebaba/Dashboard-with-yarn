@@ -20,10 +20,10 @@ body {
   box-sizing: border-box;
 }
 #dashboard {
-  height: 100vh;
+  
   width: 100vw;
-  background-color: var(--black);
-  color: white;
+  background-color: #151e27;
+  color: rgb(255, 253, 253);
   font-family: "Public Sans", sans-serif;
   overflow: hidden;
 }
@@ -31,28 +31,28 @@ body {
 .theme-container {
   background: rgba(0, 0, 0, 0.59);
   border-radius: 20px;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .gradient-red {
   position: absolute;
   width: 200px;
   height: 200px;
-  background: #ff5d5d;
+  background: #e11515;
   filter: blur(90px);
 }
 .gradient-orange {
   position: absolute;
   width: 200px;
   height: 200px;
-  background: var(--orange);
+  background: #665dff;
   filter: blur(90px);
 }
 .gradient-blue {
   position: absolute;
   width: 200px;
   height: 200px;
-  background: #5dc9ff;
+  background: #2ac232;
   filter: blur(90px);
 }
 
@@ -70,8 +70,8 @@ body {
 
 /* scrollbar */
 ::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+  width: 8px;
+  height: 0px;
 }
 
 ::-webkit-scrollbar-track {
@@ -79,6 +79,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
+  background-color: #151e27;
   width: 5px;
+  border-radius: 36px;
 }
